@@ -74,7 +74,7 @@ h6 {
   isolation: isolate;
 }
 .employe-container {
-  margin: 4em auto;
+  margin: 2em auto;
   background-color: #ffffff;
   padding: 30px 40px;
   border-radius: 10px;
@@ -135,4 +135,91 @@ ul#addlist li {
   margin-bottom: 10px;
 
   border-radius: 5px;
+}
+
+/* media query for different screen size */
+/* Large devices (desktops, 900px and above) */
+@media only screen and (max-width: 900px) {
+  .employe-container {
+    margin: 4em auto;
+    width: 60%;
+    padding: 20px;
+  }
+  input {
+    width: 100%;
+    font-size: 18px;
+  }
+  button {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+/* Small devices (phones, less than 600px) */
+@media only screen and (max-width: 599px) {
+  .employe-container {
+    width: 90%;
+    padding: 10px;
+  }
+  input {
+    width: 100%;
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+/*  */
+@media only screen and (max-width: 481px) {
+  .employe-container {
+    width: 90%;
+    padding: 10px;
+  }
+  input {
+    width: 100%;
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+  .employe-container h1 {
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (max-width: 431px) {
+  .employe-container {
+    width: 90%;
+    padding: 10px;
+  }
+  input {
+    width: 100%;
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+  .employe-container h1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .employe-container {
+    width: 90%;
+    padding: 10px;
+  }
+  input {
+    width: 100%;
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+  .employe-container h1 {
+    font-size: 1.2em;
+  }
 }
